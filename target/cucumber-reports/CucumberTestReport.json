@@ -1,0 +1,168 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8691240700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Car booking test",
+        "description": "",
+        "id": "flights-booking-and-search;car-booking-test",
+        "after": [
+          {
+            "result": {
+              "duration": 5765398500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000042900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Navigate to \"Contact\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contact",
+                  "offset": 15
+                }
+              ],
+              "location": "ActionSteps.i_Navigate_to_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 889912500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I fill the page with following data",
+            "match": {
+              "location": "ActionSteps.i_fill_the_page_with_following_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First Name",
+                  "Email",
+                  "Company Name",
+                  "Phone Number"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 322706200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select \"Australia\" from dropdown \"Country\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Australia",
+                  "offset": 10
+                },
+                {
+                  "val": "Country",
+                  "offset": 36
+                }
+              ],
+              "location": "ActionSteps.i_select_from_dropdown(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261068300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select \"Digital Asset Management\" from dropdown \"Product Package\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Asset Management",
+                  "offset": 10
+                },
+                {
+                  "val": "Product Package",
+                  "offset": 51
+                }
+              ],
+              "location": "ActionSteps.i_select_from_dropdown(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6683817600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I check the checkbox \"Terms And Conditions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Terms And Conditions",
+                  "offset": 22
+                }
+              ],
+              "location": "ActionSteps.i_check_the_checkbox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101679789400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I take the screenshot",
+            "match": {
+              "location": "ActionSteps.i_take_the_screenshot()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Flights booking and search",
+    "description": "",
+    "id": "flights-booking-and-search",
+    "keyword": "Feature",
+    "uri": "flight.feature"
+  }
+]

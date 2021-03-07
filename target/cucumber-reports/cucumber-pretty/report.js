@@ -1,30 +1,36 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("flight.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("ContactFormFeature.feature");
 formatter.feature({
   "line": 1,
-  "name": "Flights booking and search",
+  "name": "Contact form",
   "description": "",
-  "id": "flights-booking-and-search",
+  "id": "contact-form",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 11502436400,
+  "duration": 12900973800,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 3,
-  "name": "Car booking test",
+  "line": 4,
+  "name": "Contact form screenshot",
   "description": "",
-  "id": "flights-booking-and-search;car-booking-test",
+  "id": "contact-form;contact-form-screenshot",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@test"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I Navigate to \"Contact\" Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "I fill the page with following data",
   "rows": [
     {
@@ -34,7 +40,7 @@ formatter.step({
         "Company Name",
         "Phone Number"
       ],
-      "line": 6
+      "line": 7
     },
     {
       "cells": [
@@ -43,28 +49,28 @@ formatter.step({
         "3",
         "4"
       ],
-      "line": 7
+      "line": 8
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "I select \"Australia\" from dropdown \"Country\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "I select \"Digital Asset Management\" from dropdown \"Product Package\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "I check the checkbox \"Terms And Conditions\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "I take the screenshot",
   "keyword": "And "
 });
@@ -78,14 +84,14 @@ formatter.match({
   "location": "ActionSteps.i_Navigate_to_Page(String)"
 });
 formatter.result({
-  "duration": 1995820100,
+  "duration": 4279235700,
   "status": "passed"
 });
 formatter.match({
   "location": "ActionSteps.i_fill_the_page_with_following_data(DataTable)"
 });
 formatter.result({
-  "duration": 1589610600,
+  "duration": 1226082600,
   "status": "passed"
 });
 formatter.match({
@@ -102,7 +108,7 @@ formatter.match({
   "location": "ActionSteps.i_select_from_dropdown(String,String)"
 });
 formatter.result({
-  "duration": 436688800,
+  "duration": 416756000,
   "status": "passed"
 });
 formatter.match({
@@ -119,7 +125,7 @@ formatter.match({
   "location": "ActionSteps.i_select_from_dropdown(String,String)"
 });
 formatter.result({
-  "duration": 405773500,
+  "duration": 348823400,
   "status": "passed"
 });
 formatter.match({
@@ -132,18 +138,18 @@ formatter.match({
   "location": "ActionSteps.i_check_the_checkbox(String)"
 });
 formatter.result({
-  "duration": 322097300,
+  "duration": 452529800,
   "status": "passed"
 });
 formatter.match({
   "location": "ActionSteps.i_take_the_screenshot()"
 });
 formatter.result({
-  "duration": 705851300,
+  "duration": 583260400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 747118700,
+  "duration": 799075500,
   "status": "passed"
 });
 });

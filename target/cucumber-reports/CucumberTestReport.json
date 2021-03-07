@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 11502436400,
+              "duration": 12900973800,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 3,
-        "name": "Car booking test",
+        "line": 4,
+        "name": "Contact form screenshot",
         "description": "",
-        "id": "flights-booking-and-search;car-booking-test",
+        "id": "contact-form;contact-form-screenshot",
         "after": [
           {
             "result": {
-              "duration": 747118700,
+              "duration": 799075500,
               "status": "passed"
             },
             "match": {
@@ -34,10 +34,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1995820100,
+              "duration": 4279235700,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I Navigate to \"Contact\" Page",
             "match": {
               "arguments": [
@@ -52,10 +52,10 @@
           },
           {
             "result": {
-              "duration": 1589610600,
+              "duration": 1226082600,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I fill the page with following data",
             "match": {
               "location": "ActionSteps.i_fill_the_page_with_following_data(DataTable)"
@@ -68,7 +68,7 @@
                   "Company Name",
                   "Phone Number"
                 ],
-                "line": 6
+                "line": 7
               },
               {
                 "cells": [
@@ -77,17 +77,17 @@
                   "3",
                   "4"
                 ],
-                "line": 7
+                "line": 8
               }
             ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 436688800,
+              "duration": 416756000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "I select \"Australia\" from dropdown \"Country\"",
             "match": {
               "arguments": [
@@ -106,10 +106,10 @@
           },
           {
             "result": {
-              "duration": 405773500,
+              "duration": 348823400,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "I select \"Digital Asset Management\" from dropdown \"Product Package\"",
             "match": {
               "arguments": [
@@ -128,10 +128,10 @@
           },
           {
             "result": {
-              "duration": 322097300,
+              "duration": 452529800,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "I check the checkbox \"Terms And Conditions\"",
             "match": {
               "arguments": [
@@ -146,23 +146,29 @@
           },
           {
             "result": {
-              "duration": 705851300,
+              "duration": 583260400,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I take the screenshot",
             "match": {
               "location": "ActionSteps.i_take_the_screenshot()"
             },
             "keyword": "And "
           }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
         ]
       }
     ],
-    "name": "Flights booking and search",
+    "name": "Contact form",
     "description": "",
-    "id": "flights-booking-and-search",
+    "id": "contact-form",
     "keyword": "Feature",
-    "uri": "flight.feature"
+    "uri": "ContactFormFeature.feature"
   }
 ]

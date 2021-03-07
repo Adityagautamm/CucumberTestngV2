@@ -18,12 +18,12 @@ import cucumber.api.testng.TestNGCucumberRunner;
 			glue={"Steps"}, //the path of the step definition files
 			monochrome = true, //display the console output in a proper readable format
 			//strict = true, //it will check if any step is not defined in step definition file
-	        format = {
+					plugin = {
 	                "pretty",
 	                "html:target/cucumber-reports/cucumber-pretty",
 	                "json:target/cucumber-reports/CucumberTestReport.json",
 	                "rerun:target/cucumber-reports/rerun.txt"
-	        },plugin = "json:target/cucumber-reports/CucumberTestReport.json")
+	        })
 
 	public class TestRunner {
 	    private TestNGCucumberRunner testNGCucumberRunner;

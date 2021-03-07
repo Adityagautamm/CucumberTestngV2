@@ -42,7 +42,7 @@ public class TestBase {
 		
 		try {
 			FileInputStream ip= new FileInputStream(
-			"C:\\Users\\Aditya Gautam\\eclipse-workspace\\CucumberProjectV2\\src\\main\\java\\resources\\config.properties");
+			"C:\\Users\\Aditya Gautam\\eclipse-workspace2\\CucumberTestngV2\\src\\main\\java\\resources\\config.properties");
 			prop.load(ip);
 		}
 		
@@ -74,7 +74,6 @@ public class TestBase {
 		 executor = (JavascriptExecutor) driver;
 		
 		e_driver= new EventFiringWebDriver(driver);
-		// Now create object of  EventListnerHandler to register it with 
 		//EventFiringWebDriver
 		eventListener= new EventListenerClass();
 		e_driver.register(eventListener);
@@ -95,12 +94,7 @@ public class TestBase {
 	
 	
 	public static void tearDown() {
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	
 		scenarioContext.resetContext();
 		driver.quit();
 	}
